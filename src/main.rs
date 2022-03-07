@@ -6,6 +6,10 @@ However, as you can tell by the name, there is no normal Unix command to do this
 system and cannot be run separately.
 
 This is a standalone Unix utility that does the same thing.  Like Xcode, it requires the 'Developer Tools' security permission.
+
+```bash
+execution_policy_exception /Path/To/My.app
+```
 */
 mod executionpolicy;
 

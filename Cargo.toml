@@ -10,3 +10,7 @@ clap = {version = "3.1.5",features=["derive"]}
 objr = {git = "https://github.com/drewcrawford/objr"}
 blocksr = {git = "https://github.com/drewcrawford/blocksr"}
 foundationr = {git = "https://github.com/drewcrawford/foundationr",features=["nsurl"]}
+
+[profile.release]
+
+lto = true
