@@ -1,0 +1,12 @@
+[package]
+name = "execution_policy_exception"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "3.1.5",features=["derive"]}
+objr = {git = "https://github.com/drewcrawford/objr"}
+blocksr = {git = "https://github.com/drewcrawford/blocksr"}
+foundationr = {git = "https://github.com/drewcrawford/foundationr",features=["nsurl"]}
